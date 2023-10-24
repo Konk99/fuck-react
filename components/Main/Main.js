@@ -156,9 +156,9 @@ class Main extends React.Component {
         const logged = document.querySelector('dialog').getAttribute('data-login');
         
         if(logged == 'false'){
-            fetch('src/data/app.json').then(function(rawResponse){return rawResponse.json()}).then(function(parsedResponse){data.push(parsedResponse[type])});
+            fetch('data/app.json').then(function(rawResponse){return rawResponse.json()}).then(function(parsedResponse){data.push(parsedResponse[type])});
         }else {
-            fetch('src/data/app2.json').then(function(rawResponse){return rawResponse.json()}).then(function(parsedResponse){data.push(parsedResponse[type])});
+            fetch('data/app2.json').then(function(rawResponse){return rawResponse.json()}).then(function(parsedResponse){data.push(parsedResponse[type])});
         }
         
         where == 'from' ? this.setState({from: data}) && this.setState({fromButton: type}) : this.setState({to: data}) && this.setState({toButton: type});
