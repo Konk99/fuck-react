@@ -6,7 +6,8 @@ import Project from "../Project/Project";
 import About from "../About/About";
 import Main from "../Main/Main";
 
-const App = () => (
+const App = () => {
+    return (
         <HUD>
             <Routes>
                 <Route exact="true" path = 'fuck-react/main' element = {Main} />
@@ -16,5 +17,6 @@ const App = () => (
             </Routes>
         </HUD>
 );
+}
 
 export default App;
