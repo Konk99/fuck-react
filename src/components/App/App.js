@@ -9,10 +9,10 @@ import Main from "../Main/Main";
 const App = () => (
         <HUD>
             <Routes>
-                <Route exact="true" path = 'fuck-react/main' element = {Main} />
-                <Route exact="true" path = 'fuck-react/contact' element = {Contact} />
-                <Route exact="true" path = 'fuck-react/project' element = {Project} />
-                <Route exact="true" path = 'fuck-react/about' element = {About} />
+                <Route exact="true" path = 'fuck-react/main' Component = {Main} />
+                <Route exact="true" path = 'fuck-react/contact' component = {Contact} />
+                <Route exact="true" path = 'fuck-react/project' component = {Project} />
+                <Route exact="true" path = 'fuck-react/about' component = {About} />
             </Routes>
         </HUD>
 );
