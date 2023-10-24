@@ -20,7 +20,7 @@ class Hero extends React.Component {
                     </div>
                 
                 </a>
-                <img className = {styles.logo} src="src/images/NAVIUP PNG.png" />
+                <img className = {styles.logo} src="static/media/NAVIUP PNG.png" />
                 <div>
                     {/* {this.state.links.map(({key, href, ...linksProps}) => (
                         <a key = {key} href = {href} target='_blank'>

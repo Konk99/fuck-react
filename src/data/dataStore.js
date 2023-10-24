@@ -279,7 +279,7 @@ export const heroData = {
     {
       href: 'https://www.facebook.com/SKNGeodetow/',
       shortcut: 'SKN',
-      image: 'src/images/geodeci.png',
+      image: 'static/media/geodeci.png',
       p1: 'Geodetów',
       p2: 'Uniwersytetu Przyrodniczego we Wrocławiu',
     }
@@ -290,7 +290,7 @@ export const heroData = {
       href: 'https://www.igig.up.wroc.pl/?menu=Aktualnosci',
       image: {
           className: 'igig',
-          src: 'src/images/IGG.png',
+          src: 'static/media/IGG.png',
         },
     },
     {
@@ -298,8 +298,8 @@ export const heroData = {
       href: 'https://upwr.edu.pl/',
       image: {
           className: 'upwr',
-          src: 'src/images/upwr-logotyp-pl-poziomy.png',
-          srcSmall: 'src/images/upwr-logotyp.png',
+          src: 'static/media/upwr-logotyp-pl-poziomy.png',
+          srcSmall: 'static/media/upwr-logotyp.png',
         },
     },
   ],
