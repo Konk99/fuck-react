@@ -4,7 +4,7 @@ import Contact from "../Contact/Contact";
 import HUD from "../HUD/HUD";
 import Project from "../Project/Project";
 import About from "../About/About";
-import Main from "../Main/Main.js";
+import Main from "../Main/Main";
 
 const App = () => (
         <HUD>
