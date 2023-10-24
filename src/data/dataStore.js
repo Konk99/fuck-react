@@ -14,22 +14,22 @@ export const pageContents = {
   menu: [
     {
       key: 0,
-      href: 'project',
+      href: 'fuck-react/project',
       text: 'O projekcie',
     },
     {
       key: 1,
-      href: 'about',
+      href: 'fuck-react/about',
       text: 'O nas',
     },
     {
       key: 2,
-      href: 'contact',
+      href: 'fuck-react/contact',
       text: 'Kontakt',
     },
     {
       key: 3,
-      href: '',
+      href: 'fuck-react/',
       text: 'Main',
     }
   ],
