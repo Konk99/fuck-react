@@ -9,7 +9,7 @@ ReactDOM.render(
     <React.StrictMode>
         <BrowserRouter>
             <Routes>
-                <Route path='/fuck-react/*' element={<App />}>
+                <Route path='/fuck-react' element={<App />}>
                 </Route>
             </Routes>
         </BrowserRouter>
