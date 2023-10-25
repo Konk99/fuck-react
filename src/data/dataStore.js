@@ -29,7 +29,7 @@ export const pageContents = {
     },
     {
       key: 3,
-      href: 'fuck-react/main',
+      href: 'fuck-react/fuck-react',
       text: 'Main',
     }
   ],
