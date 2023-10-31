@@ -28,7 +28,7 @@ class About extends React.Component {
                 let newMask = box.getAttribute('id').replace('About_', '').replace(/_.{5}/, '');
 
                 box.addEventListener('mouseover', () => {
-                    mask.setAttribute('src', 'images/masks/' + newMask + '.png');
+                    mask.setAttribute('src', 'src/images/masks/' + newMask + '.png');
 
                     mask.classList.toggle(styles.visible);
                     image.classList.toggle(styles.gray);

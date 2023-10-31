@@ -156,9 +156,9 @@ class Main extends React.Component {
         const logged = document.querySelector('dialog').getAttribute('data-login');
         
         if(logged == 'false'){
-            fetch('data/app.json').then(function(rawResponse){return rawResponse.json()}).then(function(parsedResponse){data.push(parsedResponse[type])});
+            fetch('src/data/app.json').then(function(rawResponse){return rawResponse.json()}).then(function(parsedResponse){data.push(parsedResponse[type])});
         }else {
-            fetch('data/app2.json').then(function(rawResponse){return rawResponse.json()}).then(function(parsedResponse){data.push(parsedResponse[type])});
+            fetch('src/data/app2.json').then(function(rawResponse){return rawResponse.json()}).then(function(parsedResponse){data.push(parsedResponse[type])});
         }
         
         where == 'from' ? this.setState({from: data}) && this.setState({fromButton: type}) : this.setState({to: data}) && this.setState({toButton: type});
@@ -192,6 +192,7 @@ class Main extends React.Component {
     count = (disable = false) => {
         const tileHeight = document.getElementById('main');
         const howMany = document.querySelectorAll('.' + styles.chosen);
+        const inputs = document.querySelectorAll('input');
 
         if(howMany.length > 0){
             tileHeight.style.overflow = 'initial';
@@ -201,9 +202,14 @@ class Main extends React.Component {
         if(disable){
             tileHeight.setAttribute('data-height', '');
             tileHeight.style.overflow = 'hidden';
+            
             howMany.forEach(el => {
                 el.classList.remove(styles.chosen);
-            })
+            });
+
+            inputs.forEach(element => {
+                element.value = '';
+            });
         }
     }
 
@@ -219,7 +225,7 @@ class Main extends React.Component {
                         <a onClick={() => {this.show('rooms', 'from'); this.count()}} className = {styles.chooseButton} data-place='from' data-data="rooms">Pomieszczenie</a>
                         <form autoComplete="off" onSubmit={e => e.preventDefault()}>
                             <div className = {styles.autocomplete} data-data="">
-                                <input onKeyDown={e => this.manualSearch('start', e)} onClick={() => this.focus('start')} onInput = {() => this.autocomplete('start')} type="text" placeholder="Jestem w..." name="search" id="start" className = {styles.searchBox} />                           
+                                <input onKeyDown={e => this.manualSearch('start', e)} onClick={() => this.focus('start')} onInput = {() => this.autocomplete('start')} type="text" placeholder="Jestem u/w np. Kaczmarek Adrian, 202-Sala dydaktyczna" name="search" id="start" className = {styles.searchBox} />                           
                             </div>
                         </form>
                     </div>
@@ -231,7 +237,7 @@ class Main extends React.Component {
                         <a onClick={() => {this.show('rooms', 'to'); this.count()}} className = {styles.chooseButton} data-place='to' data-data="rooms">Pomieszczenie</a>
                         <form autoComplete="off" onSubmit={e => e.preventDefault()}>
                             <div className = {styles.autocomplete} data-data="">
-                                <input onKeyDown={e => this.manualSearch('end', e)} onClick={() => this.focus('end')} onInput = {() => this.autocomplete('end')} type="text" placeholder="Szukam..." name="search" id="end" className = {styles.searchBox} />
+                                <input onKeyDown={e => this.manualSearch('end', e)} onClick={() => this.focus('end')} onInput = {() => this.autocomplete('end')} type="text" placeholder="Szukam np. Kaczmarek Adrian, 202-Sala dydaktyczna" name="search" id="end" className = {styles.searchBox} />
                             </div>
                         </form>
                     </div>
