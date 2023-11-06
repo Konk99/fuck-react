@@ -5,7 +5,7 @@ import { contactData } from "../../data/dataStore";
 
 const Contact = () => (
     <Tile>
-        <div className = {styles.component} style={{maxHeight: '600px'}}>
+        <div className = {styles.component} style={{maxHeight: '650px'}}>
             <h2>{contactData.header}</h2>
             <p><strong><i className="fa-solid fa-envelope"></i></strong>{contactData.basicInfo.mail}</p>
             <p><i className="fa-solid fa-location-dot"></i>{contactData.basicInfo.address}</p>
