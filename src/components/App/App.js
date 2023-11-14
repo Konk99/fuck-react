@@ -1,20 +1,24 @@
 import React from "react";
-import {Routes, Route} from 'react-router-dom';
+import {Route, Routes} from 'react-router-dom';
 import Contact from "../Contact/Contact";
 import HUD from "../HUD/HUD";
 import Project from "../Project/Project";
 import About from "../About/About";
 import Main from "../Main/Main";
+import View from "../View/View";
 
 const App = () => (
+
         <HUD>
             <Routes>
-                <Route exact="true" path = '/' Component = {Main} />
-                <Route exact="true" path = '/contact' component = {Contact} />
-                <Route exact="true" path = '/project' component = {Project} />
-                <Route exact="true" path = '/about' component = {About} />
+                <Route exact path = '/' component = {Main} />
+                <Route exact path = '/contact' component = {Contact} />
+                <Route exact path = '/project' component = {Project} />
+                <Route exact path = '/about' component = {About} />
+                <Route exact path = '/view' component = {View} />
             </Routes>
         </HUD>
+
 );
 
 export default App;
