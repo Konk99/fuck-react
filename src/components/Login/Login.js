@@ -23,8 +23,9 @@ class Login extends React.Component {
 
             var mailformat = /[0-9]{6}@student.upwr.edu.pl/;
             var mailformat2 = /[a-z].[a-z]@upwr.edu.pl/;
+            var zut = /ZUT2023/;
             
-            if(text.value.match(mailformat) || text.value.match(mailformat2)){
+            if(text.value.match(mailformat) || text.value.match(mailformat2) || text.value.match(zut)){
                 document.querySelector('dialog').setAttribute('data-login', 'true');
                 document.getElementById('loginShowButton').innerHTML = 'Zalogowany';
                 this.closeDialog();

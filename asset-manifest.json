@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/fuck-react/static/css/main.d90a7140.css",
-    "main.js": "/fuck-react/static/js/main.fe77d3a4.js",
+    "main.js": "/fuck-react/static/js/main.ec4d5dfd.js",
     "static/media/cursor.png": "/fuck-react/static/media/cursor.6696c6c77f87ea307ea7.png",
     "index.html": "/fuck-react/index.html",
     "main.d90a7140.css.map": "/fuck-react/static/css/main.d90a7140.css.map",
-    "main.fe77d3a4.js.map": "/fuck-react/static/js/main.fe77d3a4.js.map"
+    "main.ec4d5dfd.js.map": "/fuck-react/static/js/main.ec4d5dfd.js.map"
   },
   "entrypoints": [
     "static/css/main.d90a7140.css",
-    "static/js/main.fe77d3a4.js"
+    "static/js/main.ec4d5dfd.js"
   ]
 }
