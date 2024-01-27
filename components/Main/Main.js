@@ -16,6 +16,8 @@ class Main extends React.Component {
         buildingList: [],
         buildingFrom: '',
         buildingTo: '',
+        floorStart: 0,
+        floorEnd: 0
     }
 
     autocomplete = where => {
@@ -92,6 +94,7 @@ class Main extends React.Component {
             if(names.substr(0, value.length).toUpperCase() == value.toUpperCase()){
                 b = document.createElement('DIV');
                 b.setAttribute('id', arr[i]['id']);
+                b.setAttribute('data-floor', arr[i]['level'])
                 
                 b.innerHTML = '<a><strong>' + names.substr(0, value.length) + 
                 '</strong>'+ names.substr(value.length) + '<input type="hidden" value="' + names + '"></a>';
@@ -103,11 +106,13 @@ class Main extends React.Component {
                     if(inp.id == 'start'){
                         startId = this.id;
                         self.setState({idStart: startId});
+                        self.setState({floorStart: this.getAttribute('data-floor')});
                         //setNewState();
                         // placeInfo(inp, startId, arr);
                     } else{
                         endId = this.id;
                         self.setState({idEnd: endId});
+                        self.setState({floorEnd: this.getAttribute('data-floor')});
                         //setNewState();
                         // placeInfo(inp, endId, arr);
                         //buttons[0].click();
@@ -387,7 +392,10 @@ class Main extends React.Component {
     showModel = () => {
         setTimeout(() => {
             if(this.state.idStart != ''){
+                const model = document.getElementById('model');
                 const modelHolder = document.getElementById('showModel');
+                model.setAttribute('data-start', this.state.floorStart);
+                model.setAttribute('data-end', this.state.floorEnd);
                 modelHolder.click();
             }else {
                 const map = document.getElementById('mapHolder');

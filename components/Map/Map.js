@@ -25,18 +25,18 @@ class Map extends React.Component {
             return
         }
 
-        if(this.state.removedAdded == false){
-            this.setState({removedAdded: true});
-            const tile = document.getElementById('main').firstChild;
+        // if(this.state.removedAdded == false){
+        //     this.setState({removedAdded: true});
+        //     const tile = document.getElementById('main').firstChild;
 
-            tile.addEventListener('click', () => {
-                if(mapHolder.hasChildNodes()) {
-                    mapHolder.classList = [styles.mapContainer, styles.noDimensions].join(' ');
-                    mapHolder.firstChild.remove();
-                }
-            });
-        }
-
+        //     tile.addEventListener('click', () => {
+        //         if(mapHolder.hasChildNodes()) {
+        //             mapHolder.classList = [styles.mapContainer, styles.noDimensions].join(' ');
+        //             mapHolder.firstChild.remove();
+        //         }
+        //     });
+        // }
+        mapHolder.style.height = '100vh';
         const badNames = ['C2', 'C3', 'C5']
 
         let id = hash.split('-');
@@ -92,6 +92,7 @@ class Map extends React.Component {
         fetch('src/data/buildings.json').then(function(rawResponse){return rawResponse.json()}).then(function(parsedResponse){data.push(parsedResponse['paths'])});
 
         setTimeout(() => {
+            console.log(data[0])
             data[0].forEach(el => {
                 if(Object.keys(el)[0] == newHash){
                     points.push(el[newHash]);
@@ -116,7 +117,7 @@ class Map extends React.Component {
     
             var polyline = L.polyline(points[0], { color: 'blue', smoothFactor: 1.5 }).addTo(mymap);
 
-        }, 150);
+        }, 250);
     }
 
     render() {
