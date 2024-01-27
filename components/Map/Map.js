@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './Map.scss';
 import * as L from 'leaflet';
+import { Trans } from 'react-i18next';
+import { render } from 'react-dom';
 
 class Map extends React.Component {
     state = {
@@ -42,8 +44,9 @@ class Map extends React.Component {
 
         if(id[0].split('%20')[0] == id[1].split('%20')[0]){
             let b = document.createElement('dialog');
-            b.innerHTML = "<h1>Szukanie drogi do budynku w którym się już znajdujesz nie jest zbyt inteligentne ༼ つ ◕_◕ ༽つ</h1>";
-            mapHolder.appendChild(b);
+            document.getElementById('mapHolder').appendChild(b);
+
+            render(<Trans i18nKey='funnyTexts.buildingSame' />, b);
 
             b.showModal();
 
@@ -57,8 +60,9 @@ class Map extends React.Component {
 
         if(badNames.includes(id[0].split('%20')[0]) && badNames.includes(id[1].split('%20')[0])){
             let b = document.createElement('dialog');
-            b.innerHTML = "<h1>Budunki są ze sobą połączone.<br>Spróbuj poszukać w Pomieszczeniach<br>ヾ(•ω•`)o</h1>";
-            mapHolder.appendChild(b);
+            document.getElementById('mapHolder').appendChild(b);
+
+            render(<Trans i18nKey='funnyTexts.buildingConnected' />, b);
 
             b.showModal();
 
