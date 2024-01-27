@@ -8,19 +8,21 @@ import Main from "../Main/Main";
 import View from "../View/View";
 import PathFinding from "../PathFinding/PathFinding";
 
-const App = () => (
+function App() {
+    return (
 
         <HUD>
             <Routes>
-                <Route exact path = '/' component = {Main} />
-                <Route exact path = '/contact' component = {Contact} />
-                <Route exact path = '/project' component = {Project} />
-                <Route exact path = '/about' component = {About} />
-                <Route exact path = '/view' component = {View} />
-                <Route exact path = '/pathfinding' component = {PathFinding} />
+                <Route exact path='/' component={Main} />
+                <Route exact path='/contact' component={Contact} />
+                <Route exact path='/project' component={Project} />
+                <Route exact path='/about' component={About} />
+                <Route exact path='/view' component={View} />
+                <Route exact path='/pathfinding' component={PathFinding} />
             </Routes>
         </HUD>
 
-);
+    );
+}
 
 export default App;
