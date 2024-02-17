@@ -21,7 +21,7 @@ i18n
         translation: {
           flipData: {
             text: 'To display the model correctly, rotate your phone',
-            img: '../../images/flip.png',
+            img: './images/flip.png',
           },
           aboutData: {
             title: 'About Us',
@@ -95,7 +95,7 @@ i18n
             },
             konkursLink: 'https://upwr.edu.pl/studia/studencka-aktywnosc/studenckie-projekty-badawcze/projekty-badawcze-skn/zwyciezcy-iv-edycji-2022',
             konkursText: 'Competition results (website in Polish)',
-            image: '../../images/upwr-logotyp-pl-poziomy.png',
+            image: './images/upwr-logotyp-pl-poziomy.png',
           },
           mainData: {
             whereAreYou: 'Where are you?',
@@ -161,7 +161,7 @@ i18n
         translation: {
           flipData: {
             text: 'Aby poprawnie wyświetlić model obróć telefon',
-            img: '../../images/flip.png',
+            img: './images/flip.png',
           },
           aboutData: {
             title: 'O nas',
@@ -235,7 +235,7 @@ i18n
             },
             konkursLink: 'https://upwr.edu.pl/studia/studencka-aktywnosc/studenckie-projekty-badawcze/projekty-badawcze-skn/zwyciezcy-iv-edycji-2022',
             konkursText: 'Wyniki konkursu',
-            image: '../../images/upwr-logotyp-pl-poziomy.png',
+            image: './images/upwr-logotyp-pl-poziomy.png',
           },
           mainData: {
             whereAreYou: 'Gdzie jesteś?',
