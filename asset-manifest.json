@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/fuck-react/static/css/main.ae60d7c5.css",
-    "main.js": "/fuck-react/static/js/main.c8d8a4eb.js",
+    "main.css": "/fuck-react/static/css/main.8b90beaf.css",
+    "main.js": "/fuck-react/static/js/main.afc57469.js",
     "static/js/592.e2d16320.chunk.js": "/fuck-react/static/js/592.e2d16320.chunk.js",
     "static/media/cursor.png": "/fuck-react/static/media/cursor.6696c6c77f87ea307ea7.png",
     "index.html": "/fuck-react/index.html",
-    "main.ae60d7c5.css.map": "/fuck-react/static/css/main.ae60d7c5.css.map",
-    "main.c8d8a4eb.js.map": "/fuck-react/static/js/main.c8d8a4eb.js.map",
+    "main.8b90beaf.css.map": "/fuck-react/static/css/main.8b90beaf.css.map",
+    "main.afc57469.js.map": "/fuck-react/static/js/main.afc57469.js.map",
     "592.e2d16320.chunk.js.map": "/fuck-react/static/js/592.e2d16320.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae60d7c5.css",
-    "static/js/main.c8d8a4eb.js"
+    "static/css/main.8b90beaf.css",
+    "static/js/main.afc57469.js"
   ]
 }
