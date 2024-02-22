@@ -102,12 +102,12 @@ i18n
             person1: 'Person',
             room1: 'Room',
             building1: 'Building',
-            description1: 'I am at/in e.g. Kaczmarek Adrian, 202',
+            description1: 'I am at/in e.g. Kaczmarek Adrian, 302',
             whereAreYouGoing: 'What are you looking for?',
             person2: 'Person',
             room2: 'Room',
             building2: 'Building',
-            description2: 'I search e.g. Kaczmarek Adrian, 202',
+            description2: 'I search e.g. Kaczmarek Adrian, 302',
             search: 'Find path'
           },
           pageContentData: {
@@ -242,12 +242,12 @@ i18n
             person1: 'Osoba',
             room1: 'Pomieszczenie',
             building1: 'Budynek',
-            description1: 'Jestem u/w np. Kaczmarek Adrian, 202',
+            description1: 'Jestem u/w np. Kaczmarek Adrian, 302',
             whereAreYouGoing: 'Czego szukasz?',
             person2: 'Osoby',
             room2: 'Pomieszczenia',
             building2: 'Budynku',
-            description2: 'Szukam np. Kaczmarek Adrian, 202',
+            description2: 'Szukam np. Kaczmarek Adrian, 302',
             search: 'Szukaj drogi'
           },
           pageContentData: {
