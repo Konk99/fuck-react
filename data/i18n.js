@@ -59,42 +59,52 @@ i18n
           contactData: {
             header: 'Office',
             basicInfo: {
-              mail: ' skn_geodetow@upwr.edu.pl',
-              address: ' ul. Grunwaldzka 53, 50-357 Wrocław'
+              mail: 'skn_geodetow@upwr.edu.pl',
+              address: 'room 023 G, building C1'
             },
             people: [
               {
                 key: 0,
                 role: 'Chairman',
-                name: 'Maurycy Hechmann',
-                mail: ' maurycyhechmann@gmail.com',
-                phone: ' +48 697 592 660',
+                name: 'Hanna Romank',
               },
               {
                 key: 1,
                 role: 'Deputy-Chairman',
-                name: 'Wiktoria Kowalczyk',
-                mail: ' wiktoriakowalczyk05@gmail.com',
-                phone: ' +48 883 521 625',
+                name: 'Miłosz Olszewski',
               },
               {
                 key: 2,
-                role: 'Member of the Management Board',
-                name: ' Emilia Biczel',
-                mail: ' emilia.biczel@gmail.com',
+                role: 'Service Administrator',
+                name: 'Konrad Kostrzanowski',
+                mail: '115476@student.upwr.edu.pl',
               },
+            ],
+            doctorsTitle:'SKN Geodetów Supervisors', 
+            doctors: [
+              {
+                key: 0,
+                name: 'dr inż. Kamil Kaźmierski',
+                mail: 'kamil.kazmierski@upwr.edu.pl'
+              },
+              {
+                key: 1,
+                name: 'dr inż. Adrian Kaczmarek',
+                mail: 'adrian.kaczmarek@upwr.edu.pl'
+              }
             ]
           },
           projectData: {
             title: 'About project',
             paragraphs: {
-              h4: 'The NaviUP project is an initiative of members of the Student Scientific Circle of Geodesy operating at the Institute of Geodesy and Geoinformatics of the Wrocław University of Environmental and Life Sciences.',
-              p1: "We created this tool to make it easier to navigate around our university's facilities, and in the future we want to develop the project for other buildings on our campus. We also plan to take into account optimal passage routes for disabled people and emergency exits.",
-              p2: 'We are convinced that NaviUP will improve the mobility of the entire academic community at our University.',
-              p3: 'The project was co-financed by the Wrocław University of Environmental and Life Sciences as part of the 4th edition of the "SKN Research Projects" competition in 2022.',
+              h4: 'NaviUP is an initiative of the members of the Students Research Group of Surveyors of the Institute of Geodesy and Geoinformatics of Wroclaw University of Life Sciences.',
+              p1: "The aim of the project was to create a tool to make it easier to move around  our university, starting from the C1 building to the C2, C3, C4 and C5 buildings. We made sure to include optimal routes for people with disabilities and added a function to display evacuation plans from the buildings.",
+              p2: 'The project was an opportunity for us to acquire new, useful skills and, above all, a real opportunity to influence the technological development of our university.',
+              p3: 'We are convinced that our website will improve the mobility of the entire academic community at our Wroclaw University of Environmental and  Life Sciences.',
+              p4: 'The project was implemented as part of the IV and V editions of the UPWr funding for Students’ Research Projects'
             },
             konkursLink: 'https://upwr.edu.pl/studia/studencka-aktywnosc/studenckie-projekty-badawcze/projekty-badawcze-skn/zwyciezcy-iv-edycji-2022',
-            konkursText: 'Competition results (website in Polish)',
+            konkursText: 'Information about the funding (website in Polish)',
             image: './images/upwr-logotyp-pl-poziomy.png',
           },
           mainData: {
@@ -199,42 +209,52 @@ i18n
           contactData: {
             header: 'Biuro',
             basicInfo: {
-              mail: ' skn_geodetow@upwr.edu.pl',
-              address: ' ul. Grunwaldzka 53, 50-357 Wrocław'
+              mail: 'skn_geodetow@upwr.edu.pl',
+              address: 'pokój 023 G, bud. C1'
             },
             people: [
               {
                 key: 0,
                 role: 'Przewodniczący',
-                name: 'Maurycy Hechmann',
-                mail: ' maurycyhechmann@gmail.com',
-                phone: ' +48 697 592 660',
+                name: 'Hanna Romank',
               },
               {
                 key: 1,
                 role: 'Z-ca Przewodniczącego',
-                name: 'Wiktoria Kowalczyk',
-                mail: ' wiktoriakowalczyk05@gmail.com',
-                phone: ' +48 883 521 625',
+                name: 'Miłosz Olszewski',
               },
               {
                 key: 2,
-                role: 'Członkini Zarządu',
-                name: ' Emilia Biczel',
-                mail: ' emilia.biczel@gmail.com',
+                role: 'Administrator serwisu',
+                name: 'Konrad Kostrzanowski',
+                mail: '115476@student.upwr.edu.pl',
               },
+            ],
+            doctorsTitle:'Opiekunowie SKN Geodetów', 
+            doctors: [
+              {
+                key: 0,
+                name: 'dr inż. Kamil Kaźmierski',
+                mail: 'kamil.kazmierski@upwr.edu.pl'
+              },
+              {
+                key: 1,
+                name: 'dr inż. Adrian Kaczmarek',
+                mail: 'adrian.kaczmarek@upwr.edu.pl'
+              }
             ]
           },
           projectData: {
             title: 'O projekcie',
             paragraphs: {
-              h4: 'Projekt NaviUP to inicjatywa członków Studenckiego Koła Naukowego Geodetów działającego przy Instytucie Geodezji i Geoinformatyki Uniwersytetu Przyrodniczego we Wrocławiu.',
-              p1: 'Stworzyliśmy to narzędzie, aby ułatwić poruszanie się po obiekcie naszej uczelni, a w przyszłości chcemy rozwinąć projekt dla kolejnych budynków naszego kampusu. Planujemy równiez uwzględnić optymalne trasy przejść dla osób niepełnosprawnych oraz wyjścia ewakuacyjne.',
-              p2: 'Jesteśmy przekonani, ze NaviUP poprawi mobilność całej społeczności akademickiej na naszym Uniwersytecie.',
-              p3: 'Projekt został dofinansowany przez Uniwersytet Przyrodniczy we Wrocławiu w ramach IV edycji konkursu „Projekty badawcze SKN” w roku 2022.',
+              h4: 'NaviUP to inicjatywa członków Studenckiego Koła Naukowego Geodetów działającego przy Instytucie Geodezji i Geoinformatyki Uniwersytetu Przyrodniczego we Wrocławiu.',
+              p1: 'Celem projektu było stworzenie narzędzia ułatwiającego poruszanie się po terenie naszej uczelni, począwszy od budynku C1, aż po budynki C2, C3, C4 i C5. Zadbaliśmy o uwzględnienie optymalnych tras przejść dla osób niepełnosprawnych oraz możliwość wyświetlania planów ewakuacyjnych z budynków.',
+              p2: 'Projekt był dla nas okazją do zdobycia nowych, przydatnych umiejętności a przede wszystkim realną możliwością wpływu na rozwój technologiczny naszej uczelni',
+              p3: 'Jesteśmy przekonani, że nasz serwis poprawi mobilność całej społeczności akademickiej na naszym na Uniwersytecie Przyrodniczym we Wrocławiu.',
+              p4: 'Projekt został zrealizowany w ramach IV i V edycji konkursu „Projekty badawcze SKN”'
             },
             konkursLink: 'https://upwr.edu.pl/studia/studencka-aktywnosc/studenckie-projekty-badawcze/projekty-badawcze-skn/zwyciezcy-iv-edycji-2022',
-            konkursText: 'Wyniki konkursu',
+            konkursText: 'Informacje na temat konkursu',
             image: './images/upwr-logotyp-pl-poziomy.png',
           },
           mainData: {
