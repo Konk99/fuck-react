@@ -25,6 +25,7 @@ i18n
           },
           aboutData: {
             title: 'About Us',
+            team: 'Our Team!',
             paragraphs: {
               p1: "As students of our University, we noticed a problem: the lack of a tool that would allow us to quickly find a lecturer's office or the room where we have classes. We present you a modern search engine for connections between selected rooms for part of the C1 building",
               p2: 'Our project was carried out with the greatest care: from field interviews and physical measurements, to building the model and generating navigation paths. Thanks to us, you will easily find your way on the university.',
@@ -190,6 +191,7 @@ i18n
           },
           aboutData: {
             title: 'O nas',
+            team: 'Nasz Zespół',
             paragraphs: {
               p1: 'Jako studenci naszego Uniwersytetu zaobserwowaliśmy problem, którym był brak narzędzia pozwalającego na szybkie odnajdywanie gabinetu wykładowcy bądź sali, w której mamy zajęcia. Prezentujemy Wam nowoczesną wyszukiwarkę połączeń między wybranymi pomieszczeniami dla części budynku C1.',
               p2: 'Nasz projekt został wykonany z największą starannością: począwszy od wywiadu terenowego i pomiarów fizycznych, aż po zbudowanie modelu oraz wygenerowanie ścieżek nawigacyjnych. Dzięki nam bez problemu odnajdziecie się na uczelni.',
