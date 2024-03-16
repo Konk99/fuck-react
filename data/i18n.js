@@ -55,6 +55,21 @@ i18n
                 groupName: 'FME algorithms person:',
               },
             ],
+            secondEdition: {
+              editions: {
+                first: 'I edition',
+                second: 'II edition'
+              },
+              roles: {
+                head: 'Project head',
+                walk: 'Inventorization',
+                model: 'Vectorization',
+                code: 'Programmer',
+                test: 'Tester',
+                art: 'Artist',
+                sup: 'Supervisor'
+              },
+            }
           },
           contactData: {
             header: 'Office',
@@ -205,6 +220,21 @@ i18n
                 groupName: 'Osoba od algorytmów FME:',
               },
             ],
+            secondEdition: {
+              editions: {
+                first: 'I edycja',
+                second: 'II edycja'
+              },
+              roles: {
+                head: 'Głowa projektu',
+                walk: 'Inwentaryzacja',
+                model: 'Wektoryzacja',
+                code: 'Programista',
+                test: 'Tester',
+                art: 'Artysta',
+                sup: 'Opiekun'
+              },
+            }
           },
           contactData: {
             header: 'Biuro',
