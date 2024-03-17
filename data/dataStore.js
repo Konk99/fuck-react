@@ -211,7 +211,7 @@ export const aboutData = {
     {
       key: 4,
       name: 'Maurycy Hechmann',
-      image: './images/teamPhotos/Maurycy.jpg',
+      image: './images/teamPhotos/Maurycy.jpeg',
       roles: [
         {
           key: 0,
