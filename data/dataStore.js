@@ -35,15 +35,15 @@ export const aboutData = {
       people: [
         {
           key: 0,
-          name: ' dr hab. inż. Paweł Bogusławski',
+          name: 'dr hab. inż. Paweł Bogusławski',
         },
         {
           key: 1,
-          name: ' dr inż. Kamil Kaźmierski',
+          name: 'dr inż. Kamil Kaźmierski',
         },
         {
           key: 2,
-          name: ' dr inż. Adrian Kaczmarek',
+          name: 'dr inż. Adrian Kaczmarek',
         },
       ]
     },
@@ -53,7 +53,7 @@ export const aboutData = {
       people: [
         {
           key: 0,
-          name: ' Wiktoria Kowalczyk',
+          name: 'Wiktoria Kowalczyk',
         },
       ]
     },
@@ -63,15 +63,15 @@ export const aboutData = {
       people: [
         {
           key: 0,
-          name: ' mgr inż. Adam Pałęcki',
+          name: 'mgr inż. Adam Pałęcki',
         },
         {
           key: 1,
-          name: ' mgr inż. Adrian Kulik',
+          name: 'mgr inż. Adrian Kulik',
         },
         {
           key: 2,
-          name: ' mgr inż. Filip Gałdyn',
+          name: 'mgr inż. Filip Gałdyn',
         },
       ]
     },
@@ -81,28 +81,28 @@ export const aboutData = {
       people: [
         {
           key: 0,
-          name: ' Konrad Kostrzanowski',
+          name: 'Konrad Kostrzanowski',
         },
         {
           key: 1,
-          name: ' Mikołaj Janas',
+          name: 'Mikołaj Janas',
         },
         {
           key: 2,
-          name: ' Marysia Pięk',
+          name: 'Marysia Pięk',
         },
         {
           key: 3,
-          name: ' Miłosz Olszewski',
+          name: 'Miłosz Olszewski',
         },
         {
           key: 4,
-          name: ' Adam Skórski',
+          name: 'Adam Skórski',
         },
       ]
     },
   ],
-  imfSource: './images/team2.jpg',
+  imfSource: '../../images/team2.jpg',
   secondBlocks: [
     {
       key: 0,
@@ -110,7 +110,7 @@ export const aboutData = {
       people: [
         {
           key: 0,
-          name: ' Maurycy Hechmann',
+          name: 'Maurycy Hechmann',
         },
       ]
     },
@@ -120,23 +120,23 @@ export const aboutData = {
       people: [
         {
           key: 0,
-          name: ' Julia Piszak',
+          name: 'Julia Piszak',
         },
         {
           key: 1,
-          name: ' Karol Błaszczok',
+          name: 'Karol Błaszczok',
         },
         {
           key: 2,
-          name: ' Wiktor Cholewa',
+          name: 'Wiktor Cholewa',
         },
         {
           key: 3,
-          name: ' Adrianna Kieres',
+          name: 'Adrianna Kieres',
         },
         {
           key: 4,
-          name: ' Michaela Szłapa',
+          name: 'Michaela Szłapa',
         },
       ]
     },
@@ -146,7 +146,7 @@ export const aboutData = {
       people: [
         {
           key: 0,
-          name: ' Weronika Wysopal',
+          name: 'Weronika Wysopal',
         },
       ]
     },
@@ -155,7 +155,7 @@ export const aboutData = {
     {
       key: 0,
       name: 'dr hab. inż. Paweł Bogusławski, profesor uczelni',
-      image: './images/teamPhotos/Bogusławski.jpg',
+      image: '../../images/teamPhotos/Bogusławski.jpg',
       roles: [
         {
           key: 0,
@@ -166,7 +166,7 @@ export const aboutData = {
     {
       key: 1,
       name: 'dr inż. Kamil Kaźmierski',
-      image: './images/teamPhotos/Kaźmierski.jpg',
+      image: '../../images/teamPhotos/Kaźmierski.jpg',
       roles: [
         {
           key: 0,
@@ -177,7 +177,7 @@ export const aboutData = {
     {
       key: 2,
       name: 'dr inż. Adrian Kaczmarek',
-      image: './images/teamPhotos/Kaczmarek.jpg',
+      image: '../../images/teamPhotos/Kaczmarek.jpg',
       roles: [
         {
           key: 0,
@@ -188,7 +188,7 @@ export const aboutData = {
     {
       key: 3,
       name: 'Wiktoria Kowalczyk',
-      image: './images/teamPhotos/Wika.jpg',
+      image: '../../images/teamPhotos/Wika.jpg',
       roles: [
         {
           key: 0,
@@ -211,7 +211,7 @@ export const aboutData = {
     {
       key: 4,
       name: 'Maurycy Hechmann',
-      image: './images/teamPhotos/male face.png',
+      image: '../../images/teamPhotos/Maurycy.jpg',
       roles: [
         {
           key: 0,
@@ -226,7 +226,7 @@ export const aboutData = {
     {
       key: 5,
       name: 'Miłosz Olszewski',
-      image: './images/teamPhotos/male face.png',
+      image: '../../images/teamPhotos/male face.png',
       roles: [
         {
           key: 0,
@@ -245,7 +245,7 @@ export const aboutData = {
     {
       key: 6,
       name: 'Marysia Pięk',
-      image: './images/teamPhotos/female face.jpg',
+      image: '../../images/teamPhotos/female face.jpg',
       roles: [
         {
           key: 0,
@@ -260,7 +260,7 @@ export const aboutData = {
     {
       key: 7,
       name: 'Michaela Szłapa',
-      image: './images/teamPhotos/Michaela.jpg',
+      image: '../../images/teamPhotos/Michaela.jpg',
       roles: [
         {
           key: 0,
@@ -271,7 +271,7 @@ export const aboutData = {
     {
       key: 8,
       name: 'Karol Błaszczok',
-      image: './images/teamPhotos/male face.png',
+      image: '../../images/teamPhotos/male face.png',
       roles: [
         {
           key: 0,
@@ -286,7 +286,7 @@ export const aboutData = {
     {
       key: 9,
       name: 'Mikołaj Janas',
-      image: './images/teamPhotos/male face.png',
+      image: '../../images/teamPhotos/male face.png',
       roles: [
         {
           key: 0,
@@ -297,7 +297,7 @@ export const aboutData = {
     {
       key: 10,
       name: 'Adrianna Kieres',
-      image: './images/teamPhotos/female face.jpg',
+      image: '../../images/teamPhotos/female face.jpg',
       roles: [
         {
           key: 0,
@@ -308,7 +308,7 @@ export const aboutData = {
     {
       key: 11,
       name: 'Wiktor Cholewa',
-      image: './images/teamPhotos/male face.png',
+      image: '../../images/teamPhotos/male face.png',
       roles: [
         {
           key: 0,
@@ -319,7 +319,7 @@ export const aboutData = {
     {
       key: 12,
       name: 'Julia Piszak',
-      image: './images/teamPhotos/female face.jpg',
+      image: '../../images/teamPhotos/female face.jpg',
       roles: [
         {
           key: 0,
@@ -330,7 +330,7 @@ export const aboutData = {
     {
       key: 13,
       name: 'Konrad Kostrzanowski',
-      image: "./images/teamPhotos/Sag'arg Mathieson.png",
+      image: "../../images/teamPhotos/Sag'arg Mathieson.png",
       roles: [
         {
           key: 0,
@@ -351,7 +351,7 @@ export const aboutData = {
       ]
     }
   ],
-  music: './vendor/Jim Yosef - Stamp On The Ground.mp3',
+  music: '../../vendor/Jim Yosef - Stamp On The Ground.mp3',
 }
 
 export const heroData = {
@@ -359,7 +359,7 @@ export const heroData = {
     {
       href: 'https://www.facebook.com/SKNGeodetow/',
       shortcut: 'SKN',
-      image: './images/geodeci.png',
+      image: '../../images/geodeci.png',
       p1: 'Geodetów',
       p2: 'Uniwersytetu Przyrodniczego we Wrocławiu',
     }
@@ -370,7 +370,7 @@ export const heroData = {
       href: 'https://www.igig.up.wroc.pl/?menu=Aktualnosci',
       image: {
           className: 'igig',
-          src: './images/IGG.png',
+          src: '../../images/IGG.png',
         },
     },
     {
@@ -378,8 +378,8 @@ export const heroData = {
       href: 'https://upwr.edu.pl/',
       image: {
           className: 'upwr',
-          src: './images/upwr-logotyp-pl-poziomy.png',
-          srcSmall: './images/upwr-logotyp.png',
+          src: '../../images/upwr-logotyp-pl-poziomy.png',
+          srcSmall: '../../images/upwr-logotyp.png',
         },
     },
   ],
