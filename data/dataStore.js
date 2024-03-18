@@ -245,7 +245,7 @@ export const aboutData = {
     {
       key: 6,
       name: 'Marysia Pięk',
-      image: './images/teamPhotos/female face.jpg',
+      image: './images/teamPhotos/Marysia.jpg',
       roles: [
         {
           key: 0,
