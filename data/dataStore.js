@@ -297,7 +297,7 @@ export const aboutData = {
     {
       key: 10,
       name: 'Adrianna Kieres',
-      image: './images/teamPhotos/female face.jpg',
+      image: './images/teamPhotos/Adrianna.jpg',
       roles: [
         {
           key: 0,
