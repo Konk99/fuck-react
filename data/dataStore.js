@@ -273,6 +273,10 @@ export const aboutData = {
           {
             key: 0,
             role: 'walk'
+          },
+          {
+            key: 1,
+            role: 'social'
           }
         ]
       },

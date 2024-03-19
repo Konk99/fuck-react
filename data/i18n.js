@@ -68,7 +68,8 @@ i18n
                 test: 'Tester',
                 art: 'Artist',
                 sup: 'Scientific supervisor',
-                path: 'Creating paths'
+                path: 'Creating paths',
+                social: 'Social channels coordinator'
               },
             }
           },
@@ -234,7 +235,8 @@ i18n
                 test: 'Tester',
                 art: 'Artysta',
                 sup: 'Opiekun naukowy',
-                path: 'Tworzenie ścieżek'
+                path: 'Tworzenie ścieżek',
+                social: 'Koordynator social mediów'
               },
             }
           },
