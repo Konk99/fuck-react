@@ -67,7 +67,7 @@ i18n
                 code: 'Programmer',
                 test: 'Tester',
                 art: 'Artist',
-                sup: 'Supervisor',
+                sup: 'Scientific supervisor',
                 path: 'Creating paths'
               },
             }
@@ -233,7 +233,7 @@ i18n
                 code: 'Programista',
                 test: 'Tester',
                 art: 'Artysta',
-                sup: 'Opiekun',
+                sup: 'Opiekun naukowy',
                 path: 'Tworzenie ścieżek'
               },
             }
