@@ -168,6 +168,10 @@ export const aboutData = {
           {
             key: 1,
             role: 'path'
+          },
+          {
+            key: 2,
+            role: 'validation'
           }
         ]
       },

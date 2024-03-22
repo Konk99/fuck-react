@@ -69,7 +69,8 @@ i18n
                 art: 'Artist',
                 sup: 'Scientific supervisor',
                 path: 'Creating paths',
-                social: 'Social channels coordinator'
+                social: 'Social channels coordinator',
+                validation: 'Validation of vector models'
               },
             }
           },
@@ -236,7 +237,8 @@ i18n
                 art: 'Artysta',
                 sup: 'Opiekun naukowy',
                 path: 'Tworzenie ścieżek',
-                social: 'Koordynator social mediów'
+                social: 'Koordynator social mediów',
+                validation: 'Walidacja modeli wektorowych'
               },
             }
           },
