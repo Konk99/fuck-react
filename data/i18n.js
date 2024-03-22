@@ -61,16 +61,16 @@ i18n
                 second: 'II edition'
               },
               roles: {
-                head: 'Project head',
-                walk: 'Inventorization',
-                model: 'Vectorization',
-                code: 'Programmer',
-                test: 'Tester',
-                art: 'Artist',
-                sup: 'Scientific supervisor',
-                path: 'Creating paths',
-                social: 'Social channels coordinator',
-                validation: 'Validation of vector models'
+                head: '•Project head',
+                walk: '•Inventorization',
+                model: '•Vectorization',
+                code: '•Programmer',
+                test: '•Tester',
+                art: '•Artist',
+                sup: '•Scientific supervisor',
+                path: '•Creating paths',
+                social: '•Social channels coordinator',
+                validation: '•Validation of vector models'
               },
             }
           },
@@ -229,16 +229,16 @@ i18n
                 second: 'II edycja'
               },
               roles: {
-                head: 'Głowa projektu',
-                walk: 'Inwentaryzacja',
-                model: 'Wektoryzacja',
-                code: 'Programista',
-                test: 'Tester',
-                art: 'Artysta',
-                sup: 'Opiekun naukowy',
-                path: 'Tworzenie ścieżek',
-                social: 'Koordynator social mediów',
-                validation: 'Walidacja modeli wektorowych'
+                head: '•Głowa projektu',
+                walk: '•Inwentaryzacja',
+                model: '•Wektoryzacja',
+                code: '•Programista',
+                test: '•Tester',
+                art: '•Artysta',
+                sup: '•Opiekun naukowy',
+                path: '•Tworzenie ścieżek',
+                social: '•Koordynator social mediów',
+                validation: '•Walidacja modeli wektorowych'
               },
             }
           },
